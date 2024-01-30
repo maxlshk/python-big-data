@@ -1,0 +1,1 @@
+print("Max Loshak, AI-2024")
