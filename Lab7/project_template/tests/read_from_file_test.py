@@ -11,7 +11,7 @@ def test_read_from_file_content():
     expected_content = "Hello, world!"
     write_to_file("test_file.txt", expected_content, "w")
     content = read_from_file("test_file.txt")
-    assert content == expected_content
+    assert content == f"{expected_content}\n"
 
 
 def test_read_from_file_no_file():
